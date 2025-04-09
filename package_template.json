@@ -1,0 +1,26 @@
+{
+    "name": "monorepo_mern_js_template",
+    "version": "1.0.0",
+    "description": "Monorepo template for react + express application in javascript",
+    "main": "index.js",
+    "scripts": {
+      "backend": "cd backend && npm install && npm start",
+      "frontend": "cd frontend  && npm install --force && npm start",
+      "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jadogeri/MONOREPO_MERN_JS_TEMPLATE.git"
+    },
+    "author": "Joseph Adogeri",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jadogeri/MONOREPO_MERN_JS_TEMPLATE/issues"
+    },
+    "homepage": "https://github.com/jadogeri/MONOREPO_MERN_JS_TEMPLATE#readme",
+    "dependencies": {
+      "concurrently": "^9.1.2"
+    }
+  }
+  

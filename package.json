@@ -1,0 +1,19 @@
+{
+  "name": "mern_auth_context_api_js",
+  "version": "1.0.0",
+  "description": "MERN template using Context API for state management in javascript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadogeri/MERN_Auth_Context_API_JS.git"
+  },
+  "author": "Joseph Adogeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadogeri/MERN_Auth_Context_API_JS/issues"
+  },
+  "homepage": "https://github.com/jadogeri/MERN_Auth_Context_API_JS#readme"
+}
